@@ -18,8 +18,8 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"/Users/macbookpro/Desktop/Streamlit/Data/")
-    df = pd.read_csv('Sample - Superstore.csv', encoding = "ISO-8859-1")
+    # os.chdir(r"/Users/macbookpro/Desktop/Streamlit/Data/")
+    df = pd.read_csv('Data/Sample - Superstore.csv', encoding = "ISO-8859-1")
 
 
 
